@@ -1,0 +1,2 @@
+This is a sample text file to test the encryption tool. If you can read this, it hasn't been encrypted yet!
+Encrypt me and see the result in 'output.txt' file
