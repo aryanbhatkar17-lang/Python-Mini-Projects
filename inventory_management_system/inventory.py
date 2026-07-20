@@ -4,7 +4,7 @@ inventory = {}
 
 def add_product():
     name = input("Enter product name: ").strip().upper()
-    quantity = int(input("Enter product name: "))
+    quantity = int(input("Enter quantiy of product: "))
     price = float(input("Enter price per unit: "))
 
     if name in inventory:
@@ -40,9 +40,9 @@ def delete_product():
     name = input("Enter product which is to be removed: ").strip().upper()
     if name in inventory:
         del inventory[name]
-        print("Product - {name} has been removed from the inventory")
+        print(f"Product - {name} has been removed from the inventory")
     else:
-        print("No '{name}' such product found")
+        print(f"No '{name}' such product found")
 
 
 def search_product():
